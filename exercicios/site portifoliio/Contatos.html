@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="Contatos.css">
+    <link rel="shortcut icon" href="imagens/Logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Contatos</h1>
+    </header>
+    <nav>
+        <a href="Portifolio.html">Sobre</a>
+        <a href="Projetos.html">Projetos</a>
+        <a href="Habilidades.html">Habilidades</a>
+    </nav>
+    <main>
+        <section id="contato">
+            <div class="container">
+                <h3>Vamos Conversar?</h3>
+                <p class="descricao">
+                     Estou sempre aberto a novas oportunidades, projetos e parcerias.
+                    Se você deseja entrar em contato, ficarei feliz em responder o mais breve possível.
+                </p>
+                <div class="redes">
+                    <a href="mailto:danielassuncao@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>linkedin</span>
+                    </a>
+                    <a href="https://github.com/danielsales-cmd" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://wa.me/5535991967675" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>Whatsapp</span>
+                    </a>
+                </div>
+                <form action="https://formsubmit.co/danielassuncao@gmail.com" method="post">
+                    <input type="hidden" name="_subject" value="Nova mensagem do Portifolio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="Nome" placeholder="Seu Nome" required>
+                    <input type="email" name="Email" placeholder="Seu Email" required>
+                    <textarea name="Mensagem" rows="6" placeholder="Digite sua Mensagem" required></textarea>
+                    <button type="submit">
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        © 2026 Daniel Sales
+
+        Todos os direitos reservados.
+    </footer>
+</body>
+</html>
